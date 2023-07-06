@@ -21,8 +21,8 @@ main {
 
 .white-container {
     border-radius: 20px;
-    height: 400px;
-    width: 300px;
+    height: 370px;
+    width: 330px;
     background-color: rgb(149 243 243);
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 
@@ -37,11 +37,11 @@ main {
 .user-input {
     display: flex;
     margin: 0 auto;
-    margin-top: 25px;
+    margin-top: 30px;
     border: none;
     outline: none;
-    width: 230px;
-    padding: 7px 20px;
+    width: 256px;
+    padding: 10px 20px;
     font-size: medium;
     border-radius: 10px;
 
@@ -54,13 +54,13 @@ main {
 }
 
 .email-icon {
-    background: url("https://vectorified.com/images/email-icon-for-resume-14.png") no-repeat 196px;
+    background: url("https://vectorified.com/images/email-icon-for-resume-14.png") no-repeat 216px;
     background-color: white;
     background-size: 20px;
 }
 
 .input-key {
-    background: url("https://icons.iconarchive.com/icons/pixelkit/gentle-edges/128/Key-icon.png") no-repeat 195px;
+    background: url("https://icons.iconarchive.com/icons/pixelkit/gentle-edges/128/Key-icon.png") no-repeat 216px;
     background-color: white;
     background-size: 20px;
 
@@ -69,8 +69,8 @@ main {
 .sign-up-btn {
     display: flex;
     margin: 0 auto;
-    margin-top: 20px;
-    padding: 9px 60px;
+    margin-top: 24px;
+    padding: 10px 70px;
     border-radius: 20px;
     background-color: rgba(55, 66, 250, 1.0);
     color: white;
@@ -81,7 +81,7 @@ main {
 
 .log-in {
     text-align: center;
-    margin-top: 10px;
+    margin-top: 17px;
     font-weight: 500;
     color: rgba(55, 66, 250, 1.0);
     cursor: pointer;
@@ -95,14 +95,14 @@ main {
 .svg {
     margin-top: 30px;
     height: 20px;
-    margin-left: 30px;
+    margin-left: 40px;
 
 }
 
 .otherlog {
     display: flex;
 }.log-name-icon{
-    background: url("https://logodix.com/logo/1727557.png") no-repeat 195px;
+    background: url("https://logodix.com/logo/1727557.png") no-repeat 216px;
     background-color: white;
     background-size: 20px;
 }
