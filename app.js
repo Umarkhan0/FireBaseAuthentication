@@ -20,7 +20,7 @@ let oneCall = () => {
     </div>
   <div class="white-container">
               <p class="signText">
-                  Log in
+                  Sign Up
               </p>
               <div class="Input-container">
                   <input class="user-input log-name-icon" id="getName" type="text" placeholder="Enter your name">
@@ -28,9 +28,9 @@ let oneCall = () => {
                   <input class="user-input input-key" type="password" id="logPassword" placeholder="Enter your password">
               </div>
               <button class="sign-up-btn" id="logBtn">
-                  LOG IN
+                  Sign Up
               </button>
-              <p class="log-in" id="signBtn" >SIGN UP</p>
+              <p class="log-in" id="signBtn" >Log in</p>
              <a href="https://mail.google.com" id="verification"></a>
           </div>
   `
@@ -125,14 +125,14 @@ let call = () => {
     main.innerHTML = `
 <div class="white-container">
             <p class="signText">
-                Sign up
+                Log in
             </p>
             <div class="Input-container">
                 <input class="user-input email-icon" id ="signEmail" type="email" placeholder="Enter your email" required>
                 <input class="user-input input-key" type="password" id="signPassword" placeholder="Enter your Password" required>
             </div>
             <button id="signUpBtn" class="sign-up-btn">
-                SIGN UP
+                Log in
             </button>
             <p class="log-in" id="logBtn">LOG IN</p>
             <div class="otherlog">
@@ -187,7 +187,7 @@ let secendCall = () => {
         console.log(errorMessage)
         let errorBox = document.getElementById("error");
         errorMessage == 'Firebase: Error (auth/user-not-found).' ? errorBox.innerHTML = `
-        <p class="error">Rong Email/Password</p> 
+        <p class="error">Ronge Email/Password</p> 
         `
             :
             errorMessage == 'Firebase: Error (auth/wrong-password).' ? errorBox.innerHTML = `
@@ -228,8 +228,6 @@ const unsubscribe = auth.onAuthStateChanged((user) => {
 
 localStorage.removeItem("user")
 location.reload();
-
-
         })
     let VerifyFun = document.getElementById("VerifyFun");
     VerifyFun.addEventListener("click", () => {
@@ -241,13 +239,4 @@ location.reload();
   };
   unsubscribe();
 
-  user.emailVerified === true ?
-    document.getElementById("VerifyFun").disabled = true
-    : console.log("false")
-
-})
-//  unsubscribe = auth.onAuthStateChanged((user) => {
-//   user.emailVerified == true ? document.getElementById("VerifyFun").disabled = true
-//   : console.log("false")
-// })
-// console.log(document.getElementById("VerifyFun"))
+});
