@@ -134,7 +134,7 @@ let call = () => {
             <button id="signUpBtn" class="sign-up-btn">
                 Log in
             </button>
-            <p class="log-in" id="logBtn">LOG IN</p>
+            <p class="log-in" id="logBtn">Sign Up</p>
             <div class="otherlog">
             <p class="other-log">
                 Log in via <br>Social network</p>
